@@ -97,6 +97,55 @@ body{
 
 .image_container{
     position: relative;
-    
+}
+
+.footer_item{
+    font-family:  "Work Sans", sans-serif;
+    color: black;
+    font-style: medium;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_bar{
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+}
+
+
+.footer_styling{
+    width: 100%;
+    height: 80px;
+    background: #80CA01;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.yellow_box{
+    width: 600px;
+    height: 243px;
+    background-color: #FFF600;
+    border-radius: 16px;
+}
+
+.yellow_box_h1{
+    color: #005B43;
+    font-family:  "Work Sans", sans-serif;
+    font-style: bold;
+    font-size: 25px;
+}
+
+.yellow_box_h2{
+    color: #005B43;
+    font-family:  "Work Sans", sans-serif;
+    font-size: 15px;
+}
+
+.container_yellow_box{
+    display: flex;
+    justify-content: space-around;
 
 }
+
