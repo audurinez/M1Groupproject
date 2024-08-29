@@ -35,7 +35,7 @@ body{
     padding: 10px;
     border-radius: 8px;
     font-family:  "Work Sans", sans-serif;
-    color: #005B43;
+    color: black;
 
 }
 
@@ -115,7 +115,7 @@ body{
 .footer_styling{
     width: 100%;
     height: 175px;
-    background: #80CA01;
+    background: #FFE500;
     margin: 0;
     display: flex;
     justify-content: space-around;
