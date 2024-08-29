@@ -6,7 +6,7 @@ body{
 .header_styling{
     width: 100%;
     height: 80px;
-    background: #FFF600;
+    background: #FFE500;
     margin: 0;
     display: flex;
     justify-content: space-between;
@@ -42,7 +42,7 @@ body{
 .offer_title{
     color: #005B43;
     font-family:  "Work Sans", sans-serif;
-    font-style: medium;
+    font-style: bold;
     font-size: 25px;
     padding-left: 64px;
 }
@@ -122,9 +122,10 @@ body{
 }
 
 .yellow_box{
-    width: 800px;
+    max-width: 600px;
+    width: 500px;
     height: 243px;
-    background-color: #FFF600;
+    background-color: #FFE500;
     border-radius: 16px;
     display: flex;
     flex-direction: column;
@@ -153,7 +154,8 @@ body{
 .container_yellow_box{
     display: flex;
     justify-content: space-around;
-    margin: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 
 }
 
