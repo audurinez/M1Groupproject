@@ -124,10 +124,14 @@ body{
 }
 
 .yellow_box{
-    width: 600px;
+    width: 800px;
     height: 243px;
     background-color: #FFF600;
     border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .yellow_box_h1{
@@ -135,17 +139,97 @@ body{
     font-family:  "Work Sans", sans-serif;
     font-style: bold;
     font-size: 25px;
+
 }
 
 .yellow_box_h2{
     color: #005B43;
     font-family:  "Work Sans", sans-serif;
     font-size: 15px;
+    margin-bottom: 20px;
+    width: 250px;
+    text-align: center;
+    font-weight: 400;
 }
 
 .container_yellow_box{
     display: flex;
     justify-content: space-around;
+    margin: 100px;
 
 }
 
+.phone_store_button {
+    width: 165px;
+    height: 64px;
+    border-radius: 20px;
+    border: none;
+    background-color: #80CA01;
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: 0.3s ease-in-out ;
+    cursor: pointer;
+
+}
+
+.google_store_button{
+    width: 165px;
+    height: 64px;
+    border-radius: 20px;
+    border: none;
+    background-color: #80CA01;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: 0.3s ease-in-out ;
+    cursor: pointer;
+}
+
+/* color over the button, maybe another color? */
+.phone_store_button:hover {
+    background-color:#06901b;
+}
+
+.google_store_button:hover{
+    background-color:#06901b;
+
+
+}
+.button_container {
+    display:flex;
+    gap:131px;
+
+}
+.button_text{
+    width: 100px;
+    text-align: left;
+
+}
+
+
+.email_button{
+    width: 165px;
+    height: 64px;
+    border-radius: 20px;
+    border: none;
+    background-color: #80CA01;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: 0.3s ease-in-out ;
+    cursor: pointer;
+}
+
+.email_button:hover{
+    background-color:#06901b;
+}
+
+.footer_styling{
+    font-weight: 500;
+    font-size: 18;
+
+}
